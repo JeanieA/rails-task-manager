@@ -1,0 +1,16 @@
+
+<h1><%= @task.title %></h1>
+
+<button class="btn btn-light"><%= link_to "Edit this task", edit_path(@task.id) %> </button>
+
+<p>Details: <%= @task.details %></p>
+  <p><% if @task.completed %>
+      This task is completed.
+    <% else %>
+      This task is not completed.</p>
+  <% end %>
+
+  <br>
+
+<button class="btn btn-success"><%= link_to "Back to all tasks", index_path %></button>
+

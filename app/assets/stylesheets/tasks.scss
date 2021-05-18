@@ -1,3 +1,19 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+ font-family: 'Monserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #377BB5;
+}
+.btn.btn-primary {
+  background-color: #377BB5;
+}
+
+.edit {
+  display: flex;
+  justify-content: space-between;
+}
